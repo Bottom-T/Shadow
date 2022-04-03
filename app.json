@@ -1,0 +1,111 @@
+{
+    "name": "Video x Music Stream Bot",
+    "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
+    "logo": "https://telegra.ph/file/18b88af791e36bf3c4259.jpg",
+    "keywords": [
+        "py-tgcalls",
+        "telegram bot",
+        "video stream",
+        "live stream",
+        "music stream",
+        "mongodb",
+        "pyrogram"
+    ],
+    "website": "https://t.me/us7a5",
+    "repository": "https://github.com/Bottom-T/Shadow",
+    "success_url": "https://t.me/us7a5",
+    "env": {
+        "API_ID": {
+            "description": "قم بوضع الايبي ايدي هنا",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "قم بوضع الايبي هاش",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "قم بوضع توكن البوت الخاص بك هنا",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "قم بوضع يوزر بوتك بدون علامة @",
+            "required": true,
+            "value": ""
+        },
+        "ASSISTANT_NAME": {
+            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+            "required": true,
+            "value": ""
+        },
+        "SESSION_NAME": {
+            "description": "قم بوضع كود تيرمكس هنا",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "قم بوضع ايدي المطور الاساسي",
+            "required": true,
+            "value": ""
+        },
+        "GROUP_SUPPORT": {
+            "description": "ضع هنا يوزر جروبك بدون علامة @",
+            "required": true,
+            "value": ""
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ضع هنا يوزر قناتك بدون علامة @",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_NAME": {
+            "description": "ضع هنا يوزر المطور بدون علامة @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_PHOTO": {
+            "description": "ضع لينك صورة البوت من هنا @T_ELEGRAPH00BOT",
+            "required": true
+        },
+        "DEV_PHOTO": {
+            "description": "ضع لينك صورة حساب مطور البوت من هنا @T_ELEGRAPH00BOT",
+            "required": true
+        },
+        "DEV_NAME": {
+            "description": "ضع اسم حساب التليجرام الخاص بالمطور",
+            "required": true
+        },
+        "ALIVE_NAME": {
+            "description": "ضع هنا اسم الحساب المساعد",
+            "required": true,
+            "value": ""
+        },
+        "MONGODB_URL": {
+            "description": "لا تغيره!",
+            "required": true,
+            "value": "mongodb://mongo:DZ2AUmIS4Gm7UzzAwy6u@containers-us-west-34.railway.app:7933"
+        },
+        "UPSTREAM_REPO": {
+            "description": "اتركه كما هوا",
+            "required": true,
+            "value": "https://github.com/Bottom-T/Shadow"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
