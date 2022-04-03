@@ -73,7 +73,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• نـصـب بـوتك مـن هـنا •", url="https://t.me/us7a5",
+                        "• Dev ⋮🇺🇸✝️! •", url="https://t.me/americcaa",
                     )
                 ],
                 [InlineKeyboardButton("", callback_data="cbhowtouse")],
@@ -104,7 +104,7 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/491ecf34485c96a72572d.jpg",
-        caption=f"𓌹●↯𝗡𝗘𝗪 𝗬𝗢𝗥𝗞‌↯●𓌺 [𝗡𝗘𝗪 𝗬𝗢𝗥𝗞](https://t.me/us7a5)",
+        caption=f"𝗡𝗘𝗪 𝗬𝗢𝗥𝗞‌ ⋮🇺🇸𖤐! [𝙽𝙴𝚆𝚈𝙾𝚁𝙺](https://t.me/us7a5)",
         reply_markup=InlineKeyboardMarkup(
          [
             [
