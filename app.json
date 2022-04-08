@@ -1,5 +1,5 @@
 {
-    "name": "Video x Music Stream Bot",
+    "name": "Video on Music Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
     "logo": "https://te.legra.ph/file/491ecf34485c96a72572d.jpg",
     "keywords": [
@@ -12,7 +12,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/us7a5",
-    "repository": "https://github.com/Bottom-T/Shadow",
+    "repository": "https://github.com/C3BoT/music",
     "success_url": "https://t.me/us7a5",
     "env": {
         "API_ID": {
@@ -86,7 +86,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/Bottom-T/Shadow"
+            "value": "https://github.com/C2BoT/music"
         }
     },
     "addons": [],
