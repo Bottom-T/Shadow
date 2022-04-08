@@ -62,11 +62,11 @@
             "value": ""
         },
         "BOT_PHOTO": {
-            "description": "ضع لينك صورة البوت من هنا @T_ELEGRAPH00BOT",
+            "description": "ضع لينك صورة البوت من هنا @vTelegraphBot",
             "required": true
         },
         "DEV_PHOTO": {
-            "description": "ضع لينك صورة حساب مطور البوت من هنا @T_ELEGRAPH00BOT",
+            "description": "ضع لينك صورة حساب مطور البوت من هنا @vTelegraphBot",
             "required": true
         },
         "DEV_NAME": {
