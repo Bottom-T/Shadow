@@ -130,7 +130,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𝐍𝐄𝐖 𝐘𝐎𝐑𝐊", url=f"https://t.me/us7a5"),
+                InlineKeyboardButton("𓌹●↯‌𝗡𝗘𝗪 𝗬𝗢𝗥𝗞↯●𓌺", url=f"https://t.me/us7a5"),
             ],
             [
                 InlineKeyboardButton(
