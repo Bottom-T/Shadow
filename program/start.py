@@ -73,7 +73,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• Dev ⋮🇺🇸✝️! •", url="https://t.me/americcaa",
+                        "• Dev •", url="https://t.me/americcaa",
                     )
                 ],
                 [InlineKeyboardButton("", callback_data="cbhowtouse")],
@@ -112,7 +112,7 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "𝗡𝗘𝗪 𝗬𝗢𝗥𝗞 🖤", url=f"https://t.me/us7a5"
+                    "🖤 ᴠᴀᴄʟᴏɴ ♩ 🖤", url=f"https://t.me/K_I_N_G_I_S"
                 ),
             ],
             [
@@ -130,7 +130,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓌹●↯𝗡𝗘𝗪 𝗬𝗢𝗥𝗞‌↯●𓌺", url=f"https://t.me/us7a5"),
+                InlineKeyboardButton("𝐍𝐄𝐖 𝐘𝐎𝐑𝐊", url=f"https://t.me/us7a5"),
             ],
             [
                 InlineKeyboardButton(
