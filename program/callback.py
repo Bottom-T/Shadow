@@ -30,7 +30,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "• Dev ⋮🇺🇸𖤐! •", url="https://t.me/https://t.me/americcaa",
+                        "• 𝒅𝒆𝒗 † •", url="https://t.me/americcaa",
                     )
                 ],
                 [InlineKeyboardButton("", callback_data="cbhowtouse")],
