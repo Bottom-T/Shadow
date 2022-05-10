@@ -1,4 +1,4 @@
-""" chat database """
+""" mongo database """
 
 from motor.motor_asyncio import AsyncIOMotorClient as Bot
 from config import MONGODB_URL as tmo
